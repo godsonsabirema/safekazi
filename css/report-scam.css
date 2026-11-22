@@ -1,0 +1,29 @@
+main {
+    max-width: 600px;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 8px;
+    background: #f8f9fa;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form button {
+    margin-top: 20px;
+    width: 100%;
+}

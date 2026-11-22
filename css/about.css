@@ -1,0 +1,63 @@
+.about-intro {
+    margin-bottom: 30px;
+}
+
+.about-intro .description {
+    font-size: 1.1rem;
+}
+
+main h2 {
+    margin-bottom: 15px;
+}
+
+.about-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.about-card {
+    padding: 20px;
+    border-radius: 8px;
+    background: #f8f9fa;
+}
+
+.about-card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.about-card a {
+    color: #062726;
+}
+
+.about-card a:hover {
+    color: #0b4a47;
+}
+
+.about-note {
+    padding: 20px;
+    border-radius: 8px;
+    background: #f8f9fa;
+}
+
+.about-note h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.about-note p {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .about-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .about-card {
+        flex: 1 1 45%;
+    }
+}

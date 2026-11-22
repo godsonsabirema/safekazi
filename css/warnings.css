@@ -1,0 +1,26 @@
+.box {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f8f9fa;
+}
+
+.box h3 {
+    margin: 0 0 5px;
+}
+
+.box p {
+    margin: 0;
+}
+
+button {
+    margin-top: 10px;
+}
+
+p a {
+    color: #062726;
+}
+
+p a:hover {
+    color: #0b4a47;
+}

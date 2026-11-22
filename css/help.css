@@ -1,0 +1,39 @@
+.description {
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 8px;
+    background: #f8f9fa;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.card a {
+    color: #062726;
+}
+
+.card a:hover {
+    color: #0b4a47;
+}
+
+@media (min-width: 768px) {
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 1 1 45%;
+    }
+}

@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+body {
+    margin: 0;
+    line-height: 1.6;
+    color: black;
+    background: #e8f1ed;
+}
+
+header {
+    background: #f8f9fa;
+}
+
+.nav-bar {
+    padding: 10px 15px;
+}
+
+.nav-bar span {
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #0b4a47;
+    border-bottom: 2px solid #0b4a47;
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 24px;
+    background: #062726;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.link-button:hover {
+    background: #0b4a47;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+hr {
+    border: 1px solid #cccccc;
+}
+
+button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 24px;
+    background: #062726;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0b4a47;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 24px;
+    font-size: 1rem;
+}
+
+footer {
+    padding: 20px 15px;
+    background: black;
+    color: #f8f9fa;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: underline; 
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #0b4a47;
+}
+
+@media (min-width: 768px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 60px;
+    }
+
+    .nav-bar h1 {
+        margin: 0;
+    }
+
+    main {
+        padding: 48px 30px;
+    }
+}
