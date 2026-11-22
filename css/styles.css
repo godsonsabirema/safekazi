@@ -43,6 +43,11 @@ header {
     border-bottom: 2px solid #0b4a47;
 }
 
+a[aria-current="page"] {
+    color: #0b4a47;
+    border-bottom: 2px solid #0b4a47;
+}
+
 .link-button {
     text-decoration: none;
     text-align: center;
@@ -65,7 +70,9 @@ main {
     padding: 20px 15px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     line-height: 1.2;
 }
 
@@ -111,7 +118,7 @@ footer ul {
 }
 
 footer ul li a {
-    text-decoration: underline; 
+    text-decoration: underline;
     color: white;
 }
 
